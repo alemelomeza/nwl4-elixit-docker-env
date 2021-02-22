@@ -90,6 +90,12 @@ Access `PostgreSQL`:
 docker exec -it postgres psql -U postgres
 ```
 
+Start server:
+
+```sh
+docker exec -it elixir mix phx.server
+```
+
 Stop environment:
 
 ```sh
