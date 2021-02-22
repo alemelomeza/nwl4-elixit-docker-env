@@ -41,6 +41,23 @@ Run migrations:
 docker exec -it elixir mix ecto.setup
 ```
 
+Edit the file `mix.exs` to install the dependency `credo`:
+
+```
+defp deps do
+    [
+      ...
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
+    ]
+end
+```
+
+Update dependencies:
+  
+```sh
+docker exec -it elixir mix deps.get
+```
+
 ## Usage
 
 Start environment:
