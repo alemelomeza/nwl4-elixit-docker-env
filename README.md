@@ -108,6 +108,12 @@ Recompile in `iex`:
 recompile
 ```
 
+Run tests:
+
+```sh
+docker exec -it elixir mix test
+```
+
 Stop environment:
 
 ```sh
