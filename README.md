@@ -27,6 +27,18 @@ Create project:
 docker exec -it elixir mix phx.new . --no-webpack --no-html
 ```
 
+Configure database hostname in files `config/dev.exs` `config/test.exs`:
+
+```
+...
+hostname: "postgres",
+...
+```
+
+```sh
+docker exec -it elixir mix ecto.setup
+```
+
 ## Usage
 
 Start environment:
