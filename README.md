@@ -64,6 +64,12 @@ Generate configuration:
 docker exec -it elixir mix credo gen.config
 ```
 
+Edit file `credo.exs`:
+
+````
+{Credo.Check.Readability.ModuleDoc, false},
+```
+
 ## Usage
 
 Start environment:
