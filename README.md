@@ -96,6 +96,12 @@ Start server:
 docker exec -it elixir mix phx.server
 ```
 
+Use `iex`:
+
+```sh
+docker exec -it elixir iex -S mix
+```
+
 Stop environment:
 
 ```sh
