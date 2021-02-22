@@ -35,6 +35,8 @@ hostname: "postgres",
 ...
 ```
 
+Run migrations:
+
 ```sh
 docker exec -it elixir mix ecto.setup
 ```
