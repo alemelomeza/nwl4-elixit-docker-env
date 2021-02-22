@@ -102,6 +102,12 @@ Use `iex`:
 docker exec -it elixir iex -S mix
 ```
 
+Recompile in `iex`:
+
+```
+recompile
+```
+
 Stop environment:
 
 ```sh
