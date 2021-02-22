@@ -58,6 +58,12 @@ Update dependencies:
 docker exec -it elixir mix deps.get
 ```
 
+Generate configuration:
+
+```sh
+docker exec -it elixir mix credo gen.config
+```
+
 ## Usage
 
 Start environment:
